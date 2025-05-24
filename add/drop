@@ -1,0 +1,5 @@
+ALTER TABLE clientes
+ADD COLUMN data_nascimento DATE;
+
+ALTER TABLE clientes
+DROP_COLUMN data_nascimento DATE;
