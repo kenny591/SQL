@@ -1,8 +1,0 @@
-INSERT INTO clientes (id, nome, endereco, telefone, email) 
-VALUES (1,'Ana Silva', 'Rua A, 123', '1234-5678', 'ana@email.com'); 
-ou 
-INSERT INTO clientes id, (nome, endereco, telefone, email) 
-VALUES 
-('Ana Silva', 'Rua A, 123', '1234-5678', 'ana@email.com'), 
-('João Santos', 'Rua B, 456', '2345-6789', 'joao@gmail.com'), 
-('Maria Souza', 'Rua C, 789', '3456-7890', 'maria@yahoo.com');
