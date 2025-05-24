@@ -6,3 +6,11 @@ VALUES
 ('Ana Silva', 'Rua A, 123', '1234-5678', 'ana@email.com'), 
 ('João Santos', 'Rua B, 456', '2345-6789', 'joao@gmail.com'), 
 ('Maria Souza', 'Rua C, 789', '3456-7890', 'maria@yahoo.com');
+
+#tabela pedios
+
+INSERT INTO pedidos (Id_pedido, data_pedido, valor_total, id_cliente) VALUES (1, '2022-01-01', 100.00, 1); 
+INSERT INTO pedidos (Id_pedido, data_pedido, valor_total, id_cliente) VALUES (2, '2022-01-05', 50.00, 2); 
+INSERT INTO pedidos (Id_pedido, data_pedido, valor_total, id_cliente) VALUES (3, '2022-01-10', 75.50, 3); 
+INSERT INTO pedidos (Id_pedido, data_pedido, valor_total, id_cliente) VALUES (4, '2022-01-15', 200.00, 1); 
+INSERT INTO pedidos (Id_pedido, data_pedido, valor_total, id_cliente) VALUES (5, '2022-01-20', 60.25, 2);
