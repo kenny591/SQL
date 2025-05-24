@@ -1,1 +1,7 @@
-# SQL
+CREATE TABLE clientes (
+ id INT PRIMARY KEY,
+ nome VARCHAR(50) NOT NULL,
+ endereco VARCHAR(100) NOT NULL,
+ telefone VARCHAR(15),
+ email VARCHAR(50) UNIQUE
+);
