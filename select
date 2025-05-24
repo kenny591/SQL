@@ -1,0 +1,11 @@
+SELECT * FROM ´clientes´;
+SELECT * FRIM ´clientes´ WHERE id=2;
+
+CREATE TABLE pedidos 
+( 
+Id_pedido INT PRIMARY KEY, 
+data_pedido DATE, 
+valor_total DECIMAL(10,2), 
+id_cliente INT, 
+FOREIGN KEY (id_cliente) REFERENCES clientes (id) 
+);
