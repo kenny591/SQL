@@ -1,0 +1,2 @@
+ALTER TABLE clientes
+DROP_COLUMN data_nascimento DATE;
